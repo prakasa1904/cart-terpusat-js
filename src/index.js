@@ -74,12 +74,12 @@ const cart = {
     if (readCookie('cart')) {
       const existCart = JSON.parse(readCookie('cart'))
       const courir = $(params).data('courir') || 'jne'
-      const package = $(params).data('package') || ''
+      const paket = $(params).data('package') || ''
       const price = $(params).data('price') || 0
       const total = $(params).data('total') || 0
       existCart.courir = {
         service: courir,
-        pack: package,
+        pack: paket,
         price: price,
       }
       createCookie('cart', JSON.stringify(existCart), 1)
@@ -193,3 +193,5 @@ const cart = {
     }
   }
 }
+
+export default cart
