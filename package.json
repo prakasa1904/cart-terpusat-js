@@ -1,0 +1,25 @@
+{
+  "name": "cart-terpusat",
+  "version": "0.0.1",
+  "description": "Cart terpusat for all project, generate cart by JS and sync with server side data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakasa1904/cart-terpusat-js.git"
+  },
+  "keywords": [
+    "cart",
+    "terpusat",
+    "javascript",
+    "commerce"
+  ],
+  "author": "Prakasa <prakasa@devetek.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakasa1904/cart-terpusat-js/issues"
+  },
+  "homepage": "https://github.com/prakasa1904/cart-terpusat-js#readme"
+}
